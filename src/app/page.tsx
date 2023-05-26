@@ -11,8 +11,18 @@ export default function Home() {
             </Link>
           </li>
           <li>
+            <Link href={"./color-contrast"}>
+              Color Contrast
+            </Link>
+          </li>
+          <li>
             <Link href={"./keyboard-navigation"}>
               Keyboard Navigation
+            </Link>
+          </li>
+          <li>
+            <Link href={"./magnification"}>
+              Magnification
             </Link>
           </li>
         </ul>
