@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --aside-color-background: hsl(60, 45%, 93%);
+  --aside-color-border: darkred;
+
+  --code-color: hsl(0, 79%, 63%);
+  --code-color-background: hsl(60, 5%, 93%);
+  --text-color: hsl(45, 8%, 20%);
+
+  --container-margin: 1rem;
+  --section-separation: 2rem;
+
+  --small-font: 0.8rem;
+  --normal-font: 1rem;
+  --medium-font: 1.25rem;
+  --big-font: 2rem;
+}
+
+body {
+  font-family: "Open Sans", "Segoe UI", Helvetica, sans-serif;
+  text-rendering: optimizelegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  margin: var(--container-margin);
+}
+
+@media (min-width: 576px) {
+  main {
+    margin: calc(2 * var(--container-margin));
+  }
+}
+
+@media (min-width: 768px) {
+  main {
+    margin: calc(5 * var(--container-margin));
+  }
+}
+
+header {
+  margin: var(--section-separation) 0;
+  text-align: center;
+}
+
+aside {
+  background-color: var(--aside-background-color);
+  border: 2px solid var(--aside-color-border);
+  margin: 0 auto;
+  max-width: fit-content;
+  padding: 0.5rem;
+}
+
+section {
+  margin: var(--section-separation) 0;
+}
+
+h1 {
+  font-size: var(--big-font);
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: var(--medium-font);
+}
+
+p,
+li {
+  color: var(--text-color);
+  font-size: var(--normal-font);
+}
+
+pre,
+code {
+  background-color: var(--code-color-background);
+  color: var(--code-color);
+  font-size: var(--small-font);
+  padding: 0 0.5rem;
+  max-width: fit-content;
+}
+
+.note {
+  font-size: var(--small-font);
+  margin: 0 1rem;
+}
+
+.no-space {
+  color: blue;
+}
+
+.space {
+  color: red;
+}

@@ -1,0 +1,14 @@
+.sample {
+  margin: 1rem 0;
+}
+
+.sample span {
+  border: 1px dotted blue;
+  max-width: fit-content;
+  padding: 1px;
+}
+
+.sample label {
+  font-size: var(--small-font);
+  margin-right: 1rem;
+}
