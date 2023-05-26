@@ -16,7 +16,7 @@ const visuallyHiddenCSSSnippet = `
 }
 `
 
-const Visibility = () => {
+const ElementsVisibility = () => {
   return (
     <main>
       <article>
@@ -80,4 +80,4 @@ const Visibility = () => {
   )
 }
 
-export default Visibility
+export default ElementsVisibility

@@ -6,13 +6,13 @@ export default function Home() {
       <nav>
         <ul>
           <li>
-            <Link href={"./visibility"}>
-              Visibility
+            <Link href={"./elements-visibility"}>
+              Elements Visibility
             </Link>
           </li>
           <li>
-            <Link href={"./keyboard-compatibility"}>
-              Keyboard Compatibility
+            <Link href={"./keyboard-navigation"}>
+              Keyboard Navigation
             </Link>
           </li>
         </ul>
