@@ -12,3 +12,7 @@
   font-size: var(--small-font);
   margin-right: 1rem;
 }
+
+.sample button:focus {
+  outline: 2px solid blue;
+}

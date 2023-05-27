@@ -1,10 +1,8 @@
-const focusedElementDebuggingCode = `
-document.body.addEventListener('focusin', (event) => {
-  console.log(document.activeElement)
-})`
-
-const focusedElementDebuggingComment = `
-// It logs the current focused element in the console.`
+"use client";
+import Rules from "./components/Rules";
+import Tabindex from "./components/Tabindex";
+import FocusDebbuging from "./components/FocusDebbuging";
+import CustomInteractiveElement from "./components/CustomInteractiveElement";
 
 export default function KeyboardNavigation() {
   return (
@@ -14,21 +12,11 @@ export default function KeyboardNavigation() {
           <h1>Keyboard Navigation</h1>
         </header>
 
-        <figure>
-          <figcaption>
-            Focused Element Debugging
-          </figcaption>
-          <pre>
-            <code className="comment">
-              {focusedElementDebuggingComment}
-            </code>
-            <code>
-              {focusedElementDebuggingCode}
-            </code>
-          </pre>
-        </figure>
-
+        <Rules />
+        <Tabindex />
+        <CustomInteractiveElement />
+        <FocusDebbuging />
       </article>
     </main>
-  )
+  );
 }

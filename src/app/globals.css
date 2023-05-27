@@ -67,6 +67,12 @@ h1 {
 
 h2 {
   font-size: var(--medium-font);
+  margin: 0.5rem 0;
+}
+
+ol,
+ul {
+  padding: 0 1.5rem;
 }
 
 p,
@@ -86,8 +92,9 @@ code {
   background-color: var(--code-color-background);
   color: var(--code-color);
   font-size: var(--small-font);
-  padding: 0 0.5rem;
   max-width: fit-content;
+  padding: 0 0.5rem;
+  white-space: pre-wrap;
 }
 
 code.comment {
@@ -105,7 +112,6 @@ figcaption {
 
 .note {
   font-size: var(--small-font);
-  margin: 0 1rem;
 }
 
 .no-space {
@@ -113,5 +119,9 @@ figcaption {
 }
 
 .space {
+  color: red;
+}
+
+.warn {
   color: red;
 }
