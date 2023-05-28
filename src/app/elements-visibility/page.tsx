@@ -1,6 +1,5 @@
 import Link from "next/link";
 import HiddingElementsWithCSS from "./components/HiddingElementsWithCSS";
-import ModalLayers from "./components/ModalLayers";
 
 const ElementsVisibility = () => {
   return (
@@ -17,19 +16,12 @@ const ElementsVisibility = () => {
                 Hidding Elements With CSS
               </Link>
             </li>
-            <li>
-              <Link href="/elements-visibility/#modal-layers">
-                Modal Layers
-              </Link>
-            </li>
           </ul>
         </nav>
       </aside>
 
       <hr />
       <HiddingElementsWithCSS id="hidding-elements-with-css" />
-      <hr />
-      <ModalLayers id="modal-layers" />
     </main>
   );
 };

@@ -20,6 +20,9 @@ export default function Home() {
           <li>
             <Link href={"./magnification"}>Magnification</Link>
           </li>
+          <li>
+            <Link href={"./modal-layers"}>Modal Layers</Link>
+          </li>
         </ul>
       </nav>
     </main>
