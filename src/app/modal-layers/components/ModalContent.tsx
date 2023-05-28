@@ -9,12 +9,13 @@ const ModalContent = ({ onClose }: { onClose: () => void }) => {
   }, []);
 
   return (
-    <div className={styles["modal"]}>
-      <div>I am a modal dialog</div>
+    <section className={styles["modal"]}>
+      <p>I am a modal dialog</p>
+      <p>See how the Close button is autofocused.</p>
       <button onClick={onClose} ref={ref}>
         Close
       </button>
-    </div>
+    </section>
   );
 };
 

@@ -29,6 +29,10 @@ const ModalLayers = ({ id }: { id: string }) => {
               <code>display: none;</code>
             </li>
           </ol>
+          <p>
+            And the first interactive element inside the modal, has to get the
+            focus automatically.
+          </p>
           <button
             onClick={() => setShowModal(true)}
             tabIndex={showModal ? -1 : 0}
