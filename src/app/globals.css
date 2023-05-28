@@ -48,7 +48,7 @@ header {
   text-align: center;
 }
 
-aside {
+aside.references {
   background-color: var(--aside-background-color);
   border: 2px solid var(--aside-color-border);
   margin: 0 auto;
@@ -68,6 +68,10 @@ h1 {
 h2 {
   font-size: var(--medium-font);
   margin: 0.5rem 0;
+}
+
+h3 {
+  font-size: var(--normal-font);
 }
 
 ol,

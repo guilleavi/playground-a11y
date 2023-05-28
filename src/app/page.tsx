@@ -6,28 +6,22 @@ export default function Home() {
       <nav>
         <ul>
           <li>
-            <Link href={"./elements-visibility"}>
-              Elements Visibility
-            </Link>
+            <Link href={"./aria"}>ARIA</Link>
           </li>
           <li>
-            <Link href={"./color-contrast"}>
-              Color Contrast
-            </Link>
+            <Link href={"./elements-visibility"}>Elements Visibility</Link>
           </li>
           <li>
-            <Link href={"./keyboard-navigation"}>
-              Keyboard Navigation
-            </Link>
+            <Link href={"./color-contrast"}>Color Contrast</Link>
           </li>
           <li>
-            <Link href={"./magnification"}>
-              Magnification
-            </Link>
+            <Link href={"./keyboard-navigation"}>Keyboard Navigation</Link>
+          </li>
+          <li>
+            <Link href={"./magnification"}>Magnification</Link>
           </li>
         </ul>
       </nav>
-
     </main>
-  )
+  );
 }
