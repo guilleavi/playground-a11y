@@ -8,7 +8,10 @@ const Rules = () => {
         <li>
           All interactive elements must be able to be activated by keyboard.
         </li>
-        <li>All focused elements must have focus styling.</li>
+        <li>
+          All focused and hovered elements must have an outline set in its
+          styles.
+        </li>
         <li>
           Keyboard focus should not get trapped in any part of the content.
         </li>
