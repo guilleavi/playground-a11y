@@ -1,9 +1,24 @@
 import Link from "next/link";
 
-export default function Home() {
+const Home = () => {
   return (
     <main>
       <h1>Accessibility</h1>
+      <nav>
+        <ul>
+          <li>
+            <Link href={"./a11y-principles"}>A11y Principles</Link>
+          </li>
+          <li>
+            <Link href={"./interim-repairs"}>
+              Approaches for Interim Repairs
+            </Link>
+          </li>
+          <li>
+            <Link href={"./terminology"}>Terminology</Link>
+          </li>
+        </ul>
+      </nav>
       <h2>A11y Fundamentals</h2>
       <nav>
         <ul>
@@ -48,7 +63,7 @@ export default function Home() {
           </li>
         </ul>
       </nav>
-      <h2>Guidelines</h2>
+      <h2>A11y Guidelines</h2>
       <nav>
         <ul>
           <li>
@@ -56,7 +71,7 @@ export default function Home() {
           </li>
         </ul>
       </nav>
-      <h2>Courses</h2>
+      <h2>A11y Courses</h2>
       <nav>
         <ul>
           <li>
@@ -74,4 +89,6 @@ export default function Home() {
       </nav>
     </main>
   );
-}
+};
+
+export default Home;

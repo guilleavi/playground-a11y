@@ -10,14 +10,15 @@
 
   --code-color: hsl(0, 79%, 63%);
   --code-color-background: hsl(60, 5%, 93%);
-  --text-color: hsl(45, 8%, 20%);
+  --header-color: hsl(189, 100%, 20.8%);
+  --text-color: hsl(0, 0%, 11.4%);
 
   --container-margin: 1rem;
   --section-separation: 2rem;
 
   --small-font: 0.8rem;
   --normal-font: 1rem;
-  --medium-font: 1.25rem;
+  --medium-font: 1.375rem;
   --big-font: 2rem;
 }
 
@@ -25,6 +26,8 @@ body {
   font-family: "Open Sans", "Segoe UI", Helvetica, sans-serif;
   text-rendering: optimizelegibility;
   -webkit-font-smoothing: antialiased;
+
+  line-height: 1.5;
 }
 
 main {
@@ -43,6 +46,51 @@ main {
   }
 }
 
+h1 {
+  color: var(--header-color);
+  font-size: var(--big-font);
+  font-weight: 400;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  color: var(--header-color);
+  font-size: var(--medium-font);
+  margin: 3.75rem 0 1.25rem;
+}
+
+p {
+  color: var(--text-color);
+  font-size: var(--normal-font);
+  line-height: 1.5rem;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+ol,
+ul {
+  margin: -0.5rem 0 1rem;
+  padding: 0 0 0 2.5rem;
+}
+
+ul li ul {
+  list-style-type: disc;
+  margin: 0;
+}
+
+li {
+  color: var(--text-color);
+  font-size: var(--normal-font);
+  margin-bottom: 0.5rem;
+}
+
+dt {
+  margin-top: 0.5rem;
+}
+
+/**/
+
 header {
   margin: var(--section-separation) 0;
   text-align: center;
@@ -60,35 +108,13 @@ section {
   margin: var(--section-separation) 0;
 }
 
-h1 {
-  font-size: var(--big-font);
-  margin-bottom: 0;
-}
-
-h2 {
-  font-size: var(--medium-font);
-  margin: 0.5rem 0;
-}
-
 h3 {
   font-size: var(--normal-font);
 }
 
-ol,
-ul {
-  padding: 0 1.5rem;
-}
-
-p,
 pre {
   margin: 0;
   padding: 0;
-}
-
-p,
-li {
-  color: var(--text-color);
-  font-size: var(--normal-font);
 }
 
 pre,
