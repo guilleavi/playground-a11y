@@ -89,6 +89,10 @@ dt {
   margin-top: 0.5rem;
 }
 
+fieldset label {
+  display: block;
+}
+
 /**/
 
 header {

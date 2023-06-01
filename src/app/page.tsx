@@ -15,6 +15,26 @@ const Home = () => {
             </Link>
           </li>
           <li>
+            Checklists
+            <ul>
+              <li>
+                <Link href={"./checklist/accessible-content"}>
+                  Writing accessible content
+                </Link>
+              </li>
+              <li>
+                <Link href={"./checklist/accessible-design"}>
+                  Designing accessible pages
+                </Link>
+              </li>
+              <li>
+                <Link href={"./checklist/accessible-markup"}>
+                  Coding accessible markup
+                </Link>
+              </li>
+            </ul>
+          </li>
+          <li>
             <Link href={"./terminology"}>Terminology</Link>
           </li>
         </ul>
