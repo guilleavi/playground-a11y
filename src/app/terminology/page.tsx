@@ -2,7 +2,9 @@ const Terminology = () => {
   return (
     <main>
       <article>
-        <h1>Terminology</h1>
+        <header>
+          <h1>Terminology</h1>
+        </header>
         <dl>
           <dt>
             <strong>adaptive strategies</strong>

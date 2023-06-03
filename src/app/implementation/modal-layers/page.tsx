@@ -8,11 +8,12 @@ const ModalLayers = ({ id }: { id: string }) => {
   const [showModal, setShowModal] = useState(false);
   return (
     <main>
-      <header>
-        <h1>Modal Layers: disabling background contenty</h1>
-      </header>
       <article id={id} {...(showModal && { ["aria-hidden"]: true })}>
+        <header>
+          <h1>Modal Layers</h1>
+        </header>
         <section>
+          <h2>Disabling background content</h2>
           <p>
             When a modal gets open, the content in the background should stop
             being interactive.

@@ -61,38 +61,42 @@ const CustomDropdown = ({
 
   return (
     <main>
-      <h1>Custom Dropdown</h1>
-      <section>
-        <div className={styles["dropdown-wrap"]} onKeyUp={handleOnKeyUp}>
-          <button
-            className={styles["dropdown-activator"]}
-            aria-controls="dropdown1" /* A11y: this button controls the elements with this id */
-            aria-haspopup="true" /* A11y: this button popups other elements */
-            data-testid="dropdown-activator"
-            ref={activatorRef}
-            onClick={handleOnClick}
-          >
-            {activatorText}
-          </button>
-          <ul
-            className={`${styles["dropdown-itemList"]} ${
-              isOpen && styles["active"]
-            }`}
-            id="dropdown1"
-            role="list" /* A11y: this will make the screen reader to announce how many items are in the list (Safari) */
-            data-testid="dropdown-itemList"
-            ref={dropdownListRef}
-          >
-            {items.map((item, index) => {
-              return (
-                <li key={index} role="listitem">
-                  <a href={item.url}>{item.text}</a>
-                </li>
-              );
-            })}
-          </ul>
-        </div>
-      </section>
+      <article>
+        <header>
+          <h1>Custom Dropdown</h1>
+        </header>
+        <section>
+          <div className={styles["dropdown-wrap"]} onKeyUp={handleOnKeyUp}>
+            <button
+              className={styles["dropdown-activator"]}
+              aria-controls="dropdown1" /* A11y: this button controls the elements with this id */
+              aria-haspopup="true" /* A11y: this button popups other elements */
+              data-testid="dropdown-activator"
+              ref={activatorRef}
+              onClick={handleOnClick}
+            >
+              {activatorText}
+            </button>
+            <ul
+              className={`${styles["dropdown-itemList"]} ${
+                isOpen && styles["active"]
+              }`}
+              id="dropdown1"
+              role="list" /* A11y: this will make the screen reader to announce how many items are in the list (Safari) */
+              data-testid="dropdown-itemList"
+              ref={dropdownListRef}
+            >
+              {items.map((item, index) => {
+                return (
+                  <li key={index} role="listitem">
+                    <a href={item.url}>{item.text}</a>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
+        </section>
+      </article>
     </main>
   );
 };

@@ -4,22 +4,21 @@ const OldPeople = () => {
       <article>
         <header>
           <h1>Old People A11y Guideline</h1>
-          <p>Devs Guidelines</p>
           <p>
-            See:{" "}
+            Devs Guidelines. See:{" "}
             <a href="https://www.w3.org/WAI/older-users/developing/">
               https://www.w3.org/WAI/older-users/developing/
             </a>
           </p>
-          <p>Percentage of old people with different disabilities</p>
           <p>
-            See:{" "}
+            Percentage of old people with different disabilities. See:{" "}
             <a href="https://www.w3.org/WAI/older-users/literature/">
               https://www.w3.org/WAI/older-users/literature/
             </a>
           </p>
         </header>
 
+        <h2>Guideline</h2>
         <ul>
           <li>
             Perceivable information and user interface
