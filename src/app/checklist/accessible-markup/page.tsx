@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const AccessibleMarkup = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Coding Accessible Markup</h1>

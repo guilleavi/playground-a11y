@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const InterimRepairs = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Approaches for Interim Repairs</h1>

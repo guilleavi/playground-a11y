@@ -7,7 +7,7 @@ import ModalContent from "./components/ModalContent";
 const ModalLayers = ({ id }: { id: string }) => {
   const [showModal, setShowModal] = useState(false);
   return (
-    <main>
+    <main role="main">
       <article id={id} {...(showModal && { ["aria-hidden"]: true })}>
         <header>
           <h1>Modal Layers</h1>

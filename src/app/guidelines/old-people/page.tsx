@@ -1,6 +1,6 @@
 const OldPeople = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Old People A11y Guideline</h1>

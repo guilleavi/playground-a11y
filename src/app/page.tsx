@@ -2,13 +2,13 @@ import Link from "next/link";
 
 const Home = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Accessibility</h1>
         </header>
-        <h2>Index</h2>
-        <nav>
+        <nav role="navigation" aria-labelledby="index-heading">
+          <h2 id="index-heading">Index</h2>
           <ul>
             <li>
               <Link href={"./a11y-principles"}>A11y Principles</Link>
@@ -22,7 +22,18 @@ const Home = () => {
               Guidelines
               <ul>
                 <li>
+                  <Link href={"./guidelines/page-structure"}>
+                    Page Structure
+                  </Link>
+                </li>
+                <li>
                   <Link href={"./guidelines/old-people"}>Old People</Link>
+                </li>
+                <li>
+                  <Link href={"https://www.w3.org/WAI/media/av/"}>
+                    Audio and Video Media
+                  </Link>
+                  (external link)
                 </li>
               </ul>
             </li>

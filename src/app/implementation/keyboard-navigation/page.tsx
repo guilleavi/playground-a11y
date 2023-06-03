@@ -6,7 +6,7 @@ import CustomInteractiveElement from "./components/CustomInteractiveElement";
 
 export default function KeyboardNavigation() {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Keyboard Navigation</h1>

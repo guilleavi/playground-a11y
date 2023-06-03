@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const AccessibleContent = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Writing Accessible Content</h1>

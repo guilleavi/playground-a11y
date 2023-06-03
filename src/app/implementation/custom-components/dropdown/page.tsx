@@ -60,7 +60,7 @@ const CustomDropdown = ({
   }, [isOpen]);
 
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Custom Dropdown</h1>

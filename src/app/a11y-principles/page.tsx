@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const A11yPrinciples = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>A11y Principles</h1>

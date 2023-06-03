@@ -1,6 +1,6 @@
 const Terminology = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Terminology</h1>

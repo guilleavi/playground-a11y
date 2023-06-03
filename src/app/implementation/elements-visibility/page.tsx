@@ -17,7 +17,7 @@ const visuallyHiddenCSSSnippet = `
 
 const ElementsVisibility = () => {
   return (
-    <main>
+    <main role="main">
       <article>
         <header>
           <h1>Elements Visibility</h1>

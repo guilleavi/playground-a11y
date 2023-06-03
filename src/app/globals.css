@@ -9,7 +9,7 @@
   --aside-color-border: darkred;
 
   --code-color: hsl(0, 79%, 63%);
-  --code-color-background: hsl(60, 5%, 93%);
+  --code-color-background: hsl(60, 95%, 97%);
   --header-color: hsl(189, 100%, 20.8%);
   --text-color: hsl(0, 0%, 11.4%);
 
@@ -58,6 +58,12 @@ h2 {
   color: var(--header-color);
   font-size: var(--medium-font);
   margin: 3.75rem 0 1.25rem;
+}
+
+h3 {
+  color: var(--header-color);
+  font-size: var(--normal-font);
+  margin-top: 3rem;
 }
 
 p {
@@ -112,10 +118,6 @@ section {
   margin: var(--section-separation) 0;
 }
 
-h3 {
-  font-size: var(--normal-font);
-}
-
 pre {
   margin: 0;
   padding: 0;
@@ -127,7 +129,7 @@ code {
   color: var(--code-color);
   font-size: var(--small-font);
   max-width: fit-content;
-  padding: 0 0.5rem;
+  padding: 0 0.25rem;
   white-space: pre-wrap;
 }
 
