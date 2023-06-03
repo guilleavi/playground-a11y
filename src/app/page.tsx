@@ -35,6 +35,21 @@ const Home = () => {
             </ul>
           </li>
           <li>
+            Implementation
+            <ul>
+              <li>
+                Custom Components
+                <ul>
+                  <li>
+                    <Link href={"./implementation/custom-components/dropdown"}>
+                      Dropdown
+                    </Link>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
             <Link href={"./terminology"}>Terminology</Link>
           </li>
         </ul>
