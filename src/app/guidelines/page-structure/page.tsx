@@ -177,14 +177,14 @@ const PageStructure = () => {
             to another author.
           </p>
           <p>
-            <strong>blockquote:</strong>Use the <code>blockquote</code> element
+            <strong>blockquote: </strong>use the <code>blockquote</code> element
             for longer and more complex quotes. It can contain paragraphs,
             headings, and other text structure elements. Those should reflect
             the structure of the cited document. The <code>cite</code> element
             is used to refer to the source of the quote.
           </p>
           <p>
-            <strong>q:</strong>For shorter quotes, that are usually embedded in
+            <strong>q: </strong>for shorter quotes, that are usually embedded in
             another sentence, use the <code>q</code> element.
           </p>
           <h3>Figures</h3>
