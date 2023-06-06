@@ -26,8 +26,8 @@ const PageStructure = () => {
           <h1>Page Structure</h1>
           <p>
             See:{" "}
-            <Link href="w3.org/WAI/tutorials/page-structure/">
-              w3.org/WAI/tutorials/page-structure/
+            <Link href="https://www.w3.org/WAI/tutorials/page-structure/">
+              https://www.w3.org/WAI/tutorials/page-structure/
             </Link>
           </p>
         </header>

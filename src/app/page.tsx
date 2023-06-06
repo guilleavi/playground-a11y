@@ -27,6 +27,9 @@ const Home = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link href={"./guidelines/menus"}>Menus</Link>
+                </li>
+                <li>
                   <Link href={"./guidelines/old-people"}>Old People</Link>
                 </li>
                 <li>
